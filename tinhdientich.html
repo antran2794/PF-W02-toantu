@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="m1()">Click</button>
+</body>
+<script>
+    function m1() {
+
+        let chieuDai
+        let chieuRong
+
+        chieuDai = prompt("Nhập chiều dài (m): ")
+        chieuDai = parseInt(chieuDai)
+        
+        chieuRong = +prompt("Nhập chiều rộng (m): ")
+       
+        let dienTich = chieuDai * chieuRong
+        alert("Diện tích hình chữ nhật là: " + dienTich + "m2")
+    }
+</script>
+</html>
